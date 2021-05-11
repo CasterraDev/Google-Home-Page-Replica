@@ -1,0 +1,105 @@
+button{
+    cursor:pointer;
+}
+
+.first, .fourth{
+  color: #3369e8;
+}
+.second, .sixth{
+  color:#d50f25;
+}
+.third{
+  color: #eeb211;
+}
+.fifth{
+  color: #009939;
+}
+
+#content{
+  height: 768px;
+  position:relative;
+  clear: both;
+}
+
+h1{
+  font-size: 10em;
+  font-family: Arial;
+}
+#logo{
+  text-align:center;
+  cursor:pointer;
+  font-family: Cursive;
+}
+a{
+  text-decoration: none;
+}
+
+.box input{
+    font-size: 20px;
+    width: 600px; 
+    height: 30px;
+    border-radius:1px;
+    border: 1px solid blue;
+    margin: auto auto;
+    cursor: text;
+}
+.search{
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  font-family: Comic Sans;
+  font-size: 25px;
+  background-color: white;
+  border: 1px solid green;
+}
+.search:hover{
+  background-color:#009939;
+  color: white;
+}
+.box{
+  text-align: center;
+  position: relative;
+  margin-top: -85px;
+}
+
+.bottomButtons{
+    text-align:center;
+    margin-top:25px;
+}
+
+.btn{
+    height:40px;
+    width:150px;
+}
+
+.btn:hover{
+    border: 1px solid #D8D8D8;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.header{
+    background-color: white;
+    text-align: right;
+}
+
+.header *{
+    margin:5px;
+}
+
+.header a{
+    color:black;
+}
+
+.signin{
+    height: 35px;
+    width: 70px;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:#3369e8;
+    color: white;
+    cursor: pointer;
+}
